@@ -52,7 +52,7 @@ def test_update():
     assert np.allclose(w_n, w_e, atol=1e-6), "Error: solver diverged."
 
 
-# if __name__=="__main__":
-#     test_diagnostics()
-#     test_plots()
-#     test_update()
+if __name__=="__main__":
+     test_diagnostics()
+     test_plots()
+     test_update()
