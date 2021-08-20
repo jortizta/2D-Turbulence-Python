@@ -16,7 +16,7 @@ from src.field import ConvectiveVortex # you can import some other field
 if __name__=="__main__":
 
     # build fluid and solver
-    flow = Fluid(64, 64, 100, pad=1.)
+    flow = Fluid(128, 128, 100, pad=1.)
     flow.init_solver()
     flow.init_field(ConvectiveVortex, beta=5.)
 
