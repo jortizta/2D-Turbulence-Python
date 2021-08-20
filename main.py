@@ -24,7 +24,7 @@ if __name__=="__main__":
     start_time = t.time()
     finish = 10.0
 
-    # # loop to solve
+    # loop to solve
     # while(flow.time<=finish):
     #     flow.update()
     #     if(flow.it % 3000 == 0):
